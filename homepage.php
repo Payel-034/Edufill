@@ -32,7 +32,7 @@ else{
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
         <img src="assets/images/logo1.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Edufill
+        EDUFILL
         </a>
         <div class="collapse navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
