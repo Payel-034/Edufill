@@ -1,7 +1,7 @@
 <?php
     include "connection.php";
     
-    if(!empty($_POST["submit"]))
+    if(!empty($_POST["signup_btn"]))
     {
         $fname = $_POST["fname"];
         $mname = $_POST["mname"];

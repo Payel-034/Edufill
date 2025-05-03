@@ -39,16 +39,19 @@ else{
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome, <?= $name ?></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#"><a href="logout.php">Logout</a>
+                <a class="dropdown-item" href="logout.php">Logout</a>
             </div>
             </li>
         </ul>
         </div>
     </nav>
-    <header>
-        <h1>West Bengal Colleges Admission Portal</h1>
-    </header>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-warning center"><u>West Bengal Colleges Admission Portal</u></h1>
+            </div>
+        </div>
+    </div>
     <section class="search-section">
         <input type="text" id="searchInput" placeholder="Search for a college...">
     </section>

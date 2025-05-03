@@ -3,12 +3,13 @@ session_start();
 
 include "connection.php";
 
-if(!empty($_POST["submit"]))
+if(!empty($_POST["login_btn"]))
 {
     $email = $_POST["email"];
     $password = $_POST["password"];
     $query="select * from user where u_mail= ?";
-
+    echo $email;
+    echo $password;
     $stmt = $conn-> prepare($query);
 
     $stmt->bind_param("s",$email);
@@ -37,5 +38,8 @@ if(!empty($_POST["submit"]))
 
     $stmt->close();
     $conn->close();
+}
+else {
+    echo "not getting data";
 }
 ?>
